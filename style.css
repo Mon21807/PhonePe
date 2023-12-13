@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+  #paymentStatus {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  #processingUI {
+    font-size: 24px;
+  }
+
+  #successUI, #failureUI {
+    display: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  #successUI {
+    background-color: #28a745;
+  }
+
+  #failureUI {
+    background-color: #dc3545;
+  }
